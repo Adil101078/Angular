@@ -1,0 +1,38 @@
+<div class="container">
+  <form class="form-inline" [formGroup]="airlineForm" (ngSubmit)="onSubmit()">
+    <div class="form-group mb-2">
+      <label for="exampleInputEmail1">Id</label>
+      <input formControlName="id" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">Name</label>
+      <input formControlName="name" type="name" class="form-control" id="exampleInputname1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">Country</label>
+      <input type="name" formControlName="country" class="form-control" id="exampleInputname1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">Logo</label>
+      <input type="name" formControlName="logo" class="form-control" id="exampleInputname1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">Slogan</label>
+      <input type="name" formControlName="slogan" class="form-control" id="exampleInputname1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">head_quaters</label>
+      <input type="name" formControlName="head_quaters" class="form-control" id="exampleInputname1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">Website</label>
+      <input type="name" formControlName="website" class="form-control" id="exampleInputname1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputname1">Established</label>
+      <input type="name" formControlName="established" class="form-control" id="exampleInputname1">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
